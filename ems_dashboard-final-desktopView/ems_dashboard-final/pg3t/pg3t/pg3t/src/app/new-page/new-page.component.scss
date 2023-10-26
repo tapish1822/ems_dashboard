@@ -1,0 +1,278 @@
+
+
+circle-progress span.label {
+    display: none;
+  }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+/* Adjust the max-height and max-width to control the image size */
+.navbar-image {
+    position: relative;
+    right: 30px;
+    max-height: 30px; /* You can adjust this value as needed */
+    max-width: 100%; /* This ensures the image scales proportionally */
+}
+.navbar-imageI{
+    max-height: 50px;
+    max-width: 100%;
+}
+.title{
+    position: relative;
+    font-size: 1.6rem;
+    top: 20px;
+    text-align: center;
+    color:#03C988;
+}
+.btn{
+    background-color: white;
+    border: 2px solid #F0F0F0;
+    box-shadow: 3px 3px 0px 0px #f0f0f1;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+
+    box-shadow: 2px 2px 0px 0px  #9400FF; /* Add a stronger shadow on hover */
+}
+
+.btn-circle{
+    background-color: white;
+    position: relative;
+    right: -400px;
+    width: 30px;
+    border-radius: 100%;
+    border: 2px solid #F0F0F0;
+    box-shadow: 3px 3px 0px 0px #f0f0f1;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-circle:hover {
+
+    box-shadow: 2px 2px 0px 0px  #9400FF; /* Add a stronger shadow on hover */
+}
+.title-1{
+    color:#03C988;
+    font-size: 1.7rem;
+    font-weight: 500;
+    position:relative;
+    top: -5px;
+    left: 40%;
+    border-radius: 1%;
+}
+.vertical-image{
+    position: relative;
+    height: 70px;
+    left: 10px;
+    width: 40px;
+    bottom: 160px;
+    padding-top: 30px;
+}
+.notification{
+    position: relative;
+    left: 10px;
+    top: 240px;
+    height: 40px;
+    width: 40px;
+}
+.vertical-bar {
+    position: relative;
+    bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    height: 88vh; /* Adjust the height as needed */
+
+    // left: 0;
+    // top: 0;
+}
+
+
+
+
+
+
+/* Thin bar with space from top, left, and right */
+.thin-bar {
+    position: relative;
+    bottom: 10px;
+    height: 2rem;
+    border-style: outset;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border-radius: 5%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+// /* Style for the container of the two boxes */
+
+
+
+.cost-title{
+    color:#03C988;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    font-size:1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cost-img{
+    position:relative;
+     left: 45%;
+    // width: 70px;
+    height: 80px;
+}
+
+.cost{
+    color:#9500ffdf;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+ 
+  .cost-box{
+    position:relative;
+    // top: 360px;
+    // right: 450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    // height: 130px;
+    // width: 400px;
+  }
+
+
+  .row-of-boxes {
+   
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: space-between; /* Adjust as needed for spacing between boxes */
+  }
+  
+  /* Style for individual boxes */
+  /* Style for individual boxes */
+
+.box{
+    margin: 10px; /* Adjust the margin as needed to reduce space between the boxes */
+    width: calc(25% - 20px); /* Distribute the boxes equally in a row with 5px space between them */
+    height: 100px;
+    background-color: white; /* Set the background color of the boxes */
+    border: 2px solid #F0F0F0; /* Add a border for visualization */
+    flex: 0 0 auto; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a box shadow */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+    border-color: #9400FF; /* Change the border color to neon-purple on hover */
+    box-shadow: 0 0 10px rgba(128, 0, 128, 0.6);
+}
+
+.box3a{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    height: 220px;
+    position: relative;
+   
+    top: 7px;
+    width: 470px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.box3a1{
+    position: relative;
+    right: 20px;
+    top: 5px;
+}
+
+
+.box3b{
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+     position: relative;
+     top: 7px;
+     width: 470px;
+     left: 10px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tc{
+    font-size: 15;
+    position: relative;
+    bottom: 80px;
+    left: 90px;
+    color:#03C988;
+    font-weight: 600;
+}
+
+.tc1{
+    white-space: nowrap;
+    font-size: 15;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+    color:#03C988;
+    font-weight: 600; 
+}
+
+circle-progress{
+    padding-top: 10px;
+    position: relative;
+    top: 10px;
+    right: 50px;
+}
+#chart_div {
+    position: relative;
+    top: -10px;
+    right: 90px;    
+    height: 140px;
+}
+
+
+#curve_chart{
+    height:12rem;
+    width: 42rem;
+}
+
+.cost-box{
+    top: 17px;
+    height: 190px;
+}
+
+.footer{
+   height: 25px;
+   display:flex;
+   position: relative;
+   top: -40px;
+   text-align: center;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+   margin-bottom: 0%;
+   padding: 0;
+}
+.foo-text{
+    position: relative;
+    left: 40%;
+    margin: 0; 
+}
+.foo-img{
+    position: relative;
+    left: 41%;
+    height: 25px;
+    width: 60px;
+}
+
